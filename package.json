@@ -1,0 +1,20 @@
+{
+    "name": "google-sheets-nodejs-quickstart",
+    "version": "1.0.0",
+    "description": "A simple Node.js command-line application that makes requests to the Google Sheets API.",
+    "private": true,
+    "dependencies": {
+        "@google-cloud/local-auth": "^2.1.0",
+        "bs58": "^5.0.0",
+        "googleapis": "^105.0.0",
+        "node-cron": "^3.0.2",
+        "nodemailer": "^6.9.1"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "scripts": {
+        "start": "node ."
+    },
+    "license": "Apache-2.0"
+}
